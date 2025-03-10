@@ -28,7 +28,7 @@ function Carousel({
     {
       ...opts,
       axis: orientation === "horizontal" ? "x" : "y",
-      loop: true, // Optional: Makes the carousel loop back to the first item after the last one
+      loop: true,
     },
     plugins
   );
@@ -137,8 +137,9 @@ function CarouselItem({ className, ...props }) {
       aria-roledescription="slide"
       data-slot="carousel-item"
       className={cn(
-        "min-w-0 shrink-0 grow-0 basis-1/5", // Set the width to 1/5 of the container
+        "min-w-0 shrink-0 grow-0",
         orientation === "horizontal" ? "pl-4" : "pt-4",
+        "w-full sm:w-full md:w-[calc(100%/3)] lg:w-[calc(100%/5)]", 
         className
       )}
       {...props}

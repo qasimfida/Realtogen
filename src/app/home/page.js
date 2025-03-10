@@ -18,7 +18,6 @@ export default function Home() {
       <HowItWorks/>
       <VirtualDroneSection />
       <Faqs/>
-      
     </div>
   );
 }

@@ -8,7 +8,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel"; // Removed CarouselPrevious and CarouselNext
+} from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import LocationIcon from "../../../../public/icons/LocationIcon";
 
@@ -43,9 +43,9 @@ const HomeSlider = () => {
   return (
     <>
       <div className="flex flex-col items-center md:pt-[67px]">
-        <div className="flex flex-col gap-[16px] items-center">
+        <div className="flex max-sm:pt-[34px] flex-row md:flex-col gap-[16px] items-center px-[13px]">
           <Image src={img} width={64} height={64} />
-          <h1 className="w-[617px] font-semibold text-[32px]">
+          <h1 className="md:w-[617px] w-[345px] font-semibold text-[20px] md:text-[32px]">
             Fly Over Listings Anywhere in the World - No Drone, No Filming, No
             Hassle!
           </h1>
@@ -57,12 +57,12 @@ const HomeSlider = () => {
           </span>
         </p>
 
-        <div className="pt-[60px]">
+        <div className="pt-[60px] overflow-hidden max-sm:w-full w-[auto]">
           <Carousel
-            className="w-full max-w-[1024px] max-h-[434px] h-full" // Set max width of the carousel container to 1024px
+            className="w-full max-w-[1024px] max-h-[434px] h-full"
             plugins={[
               Autoplay({
-                delay: 1000,
+                delay: 3000,
               }),
             ]}
           >
