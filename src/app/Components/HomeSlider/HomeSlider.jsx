@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import LocationIcon from "../../../../public/icons/LocationIcon";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Data = [
   {
@@ -43,7 +45,7 @@ const HomeSlider = () => {
   return (
     <>
       <div className="flex flex-col items-center md:pt-[67px]">
-        <div className="flex max-sm:pt-[34px] flex-row md:flex-col gap-[16px] items-center px-[13px]">
+        <div className="flex max-sm:pt-[34px] flex-row md:flex-col gap-[22px] items-center px-[13px]">
           <Image src={img} width={64} height={64} />
           <h1 className="md:w-[617px] w-[auto] font-semibold text-[20px] md:text-[32px]">
             Fly Over Listings Anywhere in the World - No Drone, No Filming, No
@@ -57,7 +59,7 @@ const HomeSlider = () => {
           </span>
         </p>
 
-        <div className="pt-[60px] overflow-hidden max-sm:w-full w-[auto]">
+        <div className="pt-[40px] overflow-hidden max-sm:w-full w-[auto]">
           <Carousel
             className="w-full max-w-[1024px] max-h-[434px] h-full"
             plugins={[
@@ -86,6 +88,30 @@ const HomeSlider = () => {
               ))}
             </CarouselContent>
           </Carousel>
+          <div className="pt-[40px] flex md:flex-row flex-col justify-center items-center gap-[14px] md:gap-[40px]">
+            <div
+              className="bg-gradient-to-r mt-[24px] md:mt-[32px] from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-[209px] md:w-[152px] h-[50px] flex justify-center items-center rounded-[8px]"
+              style={{ boxShadow: "0 3px 14px 3px rgba(66, 107, 255, 0.3)" }}
+            >
+              <Button
+                variant="primary"
+                className="bg-[#141A30] w-[207px] md:w-[150px] h-[46px] text-white text-[16px] font-semibold"
+              >
+                <Link href="/loggedIn">View Gallery</Link>
+              </Button>
+            </div>
+            <div
+              className="bg-gradient-to-r mt-[24px] md:mt-[32px] from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-[209px] md:w-[152px] h-[50px] flex justify-center items-center rounded-[8px]"
+              style={{ boxShadow: "0 3px 14px 3px rgba(66, 107, 255, 0.3)" }}
+            >
+              <Button
+                variant="primary"
+                className="bg-[#426BFF] w-[207px] md:w-[150px] h-[46px] text-white text-[16px] font-semibold"
+              >
+                <Link href="/loggedIn">Try Now</Link>
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ const HomeCards = ({ text, img }) => {
         </div>
         
         {/* Card */}
-        <div className="flex gap-[20px] justify-center bg-white w-full sm:w-[233px] h-auto rounded-[12px] px-[15px] sm:py-6">
+        <div className="flex gap-[20px] justify-center bg-white w-full sm:w-[233px] h-auto rounded-[12px] px-[15px] py-[21px]">
           <div className="flex flex-col justify-between items-center sm:items-start">
             <p className="text-[14px] sm:text-[16px] font-normal h-[84px] text-center sm:text-left">
               {text}

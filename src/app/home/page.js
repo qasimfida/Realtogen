@@ -7,6 +7,7 @@ import Comparison from "../Components/comparison/Comparison";
 import HomeSlider from "../Components/HomeSlider/HomeSlider";
 import { Faqs } from "../Components/Faqs/Faqs";
 import SpotLight from "../Components/SpotLight/SpotLight";
+import CoustomerServices from "../Components/CoustomerServices/CoustomerServices";
 
 
 export default function Home() {
@@ -15,9 +16,10 @@ export default function Home() {
       <HomeHero />
       <HomeSlider />
       <PromoSection/>
+      <CoustomerServices />
+      <VirtualDroneSection />
       <Comparison/>
       <HowItWorks/>
-      <VirtualDroneSection />
       <Faqs/>
       <SpotLight/>
     </div>
