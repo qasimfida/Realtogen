@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <div
         className={`fixed top-0 left-0 md:left-[12%] w-full max-w-6xl mx-auto px-6 md:px-16 py-4 flex items-center justify-between transition-all duration-300 z-50 ${
-          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2 left0 md:left-[12%]" : "bg-transparent"
+          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2 left-0 md:left-[12%]" : "bg-transparent"
         }`}
       >
 
