@@ -9,13 +9,13 @@ import CardsData from "@/app/Data/HomeCardsData";
 const HomeHero = () => {
   return (
     <>
-      <div className="flex pt-[78px] md:px-[208px] px-[17px]">
-      <div className="flex  bg-[url('/images/homeBg.png')] bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px]">
+      <div className="flex pt-[15px] md:pt-[78px] md:px-[208px] px-[17px]">
+      <div className="flex  pt-[15px] md:pt-[78px] bg-[url('/images/homeBg.png')] bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px]">
         <div className="flex flex-col items-cente md:items-start">
           <h2 className="text-[#426BFF] font-semibold leading-[60px] text-[48px] md:text-[64px]">
             Generate Drone Videos Instantly
           </h2>
-          <div className="pt-[32px]">
+          <div className="pt-[24px] md:pt-[32px]">
             <p className="text-[16px]">
               📍 Turn Any Address into Stunning 3D Drone Videos for{" "}
               <span className="font-bold text-[#141A30]">Real Estate</span>{" "}
@@ -27,7 +27,7 @@ const HomeHero = () => {
             </p>
           </div>
           <div
-            className="bg-gradient-to-r mt-[32px] from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-[209px] md:w-[152px] h-[50px] flex justify-center items-center rounded-[8px]"
+            className="bg-gradient-to-r mt-[24px] md:mt-[32px] from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-[209px] md:w-[152px] h-[50px] flex justify-center items-center rounded-[8px]"
             style={{ boxShadow: "0 3px 14px 3px rgba(66, 107, 255, 0.3)" }}
           >
             <Button
@@ -46,7 +46,7 @@ const HomeHero = () => {
         </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[23px] px-[19px] md:px-[208px] pt-[48px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[23px] px-[19px] md:px-[208px] pt-[40px] md:pt-[101px]">
         {CardsData.map((card) => (
           <HomeCards key={card.id} text={card.text} img={card.img} />
         ))}

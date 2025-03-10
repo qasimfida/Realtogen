@@ -5,17 +5,17 @@ import { Button } from "@/components/ui/button";
 
 export default function PromoSection() {
   return (
-    <section className="bg-[#141A30] text-white mt-[65px] py-12 md:px-0 px-10">
-      <div className="flex flex-col md:flex-row items-center gap-10 max-w-6xl mx-auto  ">
+    <section className="bg-[#141A30] text-white mt-[65px] py-12 md:px-0">
+      <div className="flex flex-col md:flex-row items-center gap-[16px] md:gap-[47px]  mx-auto px-[32px] md:px-[208px] ">
        
         <div className="w-full md:w-[440px] md:h-[476px] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
           <span className="text-3xl">🔗</span>
         </div>
 
       
-        <div className="md:w-[430px] w-full ">
+        <div className="md:w-[430px] w-full max-sm:text-center">
           <h2 className="text-xl md:text-2xl font-semibold">
-            <span className="text-green-400">Ready</span> to Transform Your Listings?
+            <span className="text-[#1DF615]">Ready</span> to Transform Your Listings?
           </h2>
           <p className="text-gray-300 mt-4 leading-9">
             RealGen AI is your all-in-one real estate marketing platform. Instantly generate aerial-style property videos—just by entering an address or uploading images to create free, ready-to-post listing and social media designs.
@@ -25,18 +25,26 @@ export default function PromoSection() {
           </p>
 
       
-          <div className="md:flex gap-4 mt-6 ">
-            <Button variant="default" className="bg-blue-500 hover:bg-blue-600 px-10 py-6 md:my-0 my-4">
-            Get Free Designs
-            </Button>
-            <Button variant="default" className="bg-blue-500 hover:bg-blue-600 px-10 py-6">
-              Generate Drone Shot
-            </Button>
+          <div className="flex flex-col md:flex-row  gap-4 mt-6 ">
+              <Button
+                variant="outline"
+                className="text-white border-white bg-transparent font-semibold text-[16px] px-10 py-6 md:my-0 my-4"
+                style={{ textShadow: "2px 2px 6px rgba(255, 255, 255, 0.534)" }}
+              >
+                Get Free Designs
+              </Button>
+             <Button
+                variant="default"
+                className="bg-blue-500 hover:bg-blue-600 border-[#b8b8b8] border-2 font-semibold text-[16px] px-10 py-6 md:my-0 my-4 shadow-lg"
+                style={{ boxShadow: "2px 2px 10px #426bff7f" }}
+              >
+                Generate Drone Shot 
+              </Button>
           </div>
 
        
-          <p className="text-gray-400 mt-4 text-sm">
-            See all plans and <a href="#" className="text-blue-400 underline">save up to 40% now.</a>
+          <p className="text-[#FFFFFF] mt-4 text-sm">
+            See all plans and <a href="#" className="text-[#426BFF]">save up to 40% now.</a>
           </p>
         </div>
       </div>

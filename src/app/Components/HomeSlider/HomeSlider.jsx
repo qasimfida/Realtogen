@@ -45,7 +45,7 @@ const HomeSlider = () => {
       <div className="flex flex-col items-center md:pt-[67px]">
         <div className="flex max-sm:pt-[34px] flex-row md:flex-col gap-[16px] items-center px-[13px]">
           <Image src={img} width={64} height={64} />
-          <h1 className="md:w-[617px] w-[345px] font-semibold text-[20px] md:text-[32px]">
+          <h1 className="md:w-[617px] w-[auto] font-semibold text-[20px] md:text-[32px]">
             Fly Over Listings Anywhere in the World - No Drone, No Filming, No
             Hassle!
           </h1>

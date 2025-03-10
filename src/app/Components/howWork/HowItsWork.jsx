@@ -26,7 +26,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className=" pb-12 text-center md:px-0 px-6">
+    <div className=" pb-12 text-center md:px-0  md:mx-[208px]">
       <h2 className="text-3xl text-[#141A30] font-semibold py-3">How It Works?</h2>
       <p className="text-[#141A30] font-normal text-2xl my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
@@ -35,7 +35,6 @@ const HowItWorks = () => {
           <StepCard key={step.step} {...step} />
         ))}
       </div>
-
       <Button className="mt-6 px-10 py-2 bg-[#426BFF] text-white rounded-xl">Try Now</Button>
     </div>
   );
