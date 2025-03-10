@@ -50,7 +50,7 @@ const HomeSlider = () => {
             Hassle!
           </h1>
         </div>
-        <p className="text-[16px] pt-[40px] text-[#595959]">
+        <p className="max-sm:px-[23px] text-[14px] md:text-[16px] max-sm:text-center pt-[40px] text-[#595959]">
           Transform your property address into a stunning aerial video{" "}
           <span className="font-bold">
             with RealtoGen AI—no filming, all AI.
