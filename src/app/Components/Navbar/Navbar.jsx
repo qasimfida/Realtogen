@@ -28,13 +28,11 @@ const Navbar = () => {
       >
 
         <div className="flex items-center gap-8">
-          
           <Link href="/home" className="flex items-center gap-2 text-[18px] font-semibold">
             <Image src={logo} alt="RealtoGen Logo" width={30} height={30} />
             RealtoGen
           </Link>
 
-   
           <div className="hidden md:flex gap-8 text-[16px] font-medium">
             <Link href="/gallery">Gallery</Link>
             <Link href="/features">Features</Link>
