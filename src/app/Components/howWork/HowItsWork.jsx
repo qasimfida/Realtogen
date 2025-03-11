@@ -26,9 +26,9 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className=" pb-12 text-center md:px-0  md:mx-[208px]">
-      <h2 className="text-3xl text-[#141A30] font-semibold py-3">How It Works?</h2>
-      <p className="text-[#141A30] font-normal text-2xl my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <div className=" pb-12 text-center md:px-0 md:mx-[208px]">
+      <h2 className="text-[32px] text-[#141A30] font-semibold py-3">How It Works?</h2>
+      <p className="text-[#141A30] font-normal md:text-[24px] text-[14px] my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-16 md:mx-0 mx-2">
         {steps.map((step) => (

@@ -7,10 +7,10 @@ const CoustomerServices = () => {
   return (
     <>
       <div className="text-center pb-[56px] pt-[36px] md:pt-[115px] md:px-[208px]">
-      <h3 className="text-[32px] font-semibold">Customer Success Stories</h3>
-      <div className="text-start pt-[19px]">
-      <p className="text-[24px] font-sans">What<span className="font-semibold"> 2,000+ </span>real estate agents are saying?</p>
-      <p className="text-[24px] pt-[13px]">See how <span> real estate professionals</span>save time and money while boosting sales with <span> RealtoGen.ai.</span> Directly from our satisfied clients.</p>
+      <h3 className="text-[20px] md:text-[32px] font-semibold">Customer Success Stories</h3>
+      <div className="max-sm:px-[36px] md:text-start pt-[19px] text-center">
+      <p className="text-[14px] md:text-[24px] font-sans">What<span className="font-semibold"> 2,000+ </span>real estate agents are saying?</p>
+      <p className="text-[14px] md:text-[24px] pt-[13px]">See how <span> real estate professionals</span>save time and money while boosting sales with <span> RealtoGen.ai.</span> Directly from our satisfied clients.</p>
       </div>
       </div>
     <div className=" pb-[36px] md:pb-[128px] px-[19px] md:px-[208px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-[82px]">
