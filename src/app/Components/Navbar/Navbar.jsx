@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import logo from "../../../../public/images/Logo.png"
+import usa from "../../../../public/images/usa.png"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
@@ -55,7 +56,7 @@ const Navbar = () => {
       
            
             <Image
-              src={"/images/usa.png"}
+              src={usa}
               alt="USA Logo"
               width={20}
               height={20}
