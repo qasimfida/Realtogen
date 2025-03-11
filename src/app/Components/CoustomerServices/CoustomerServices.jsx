@@ -5,13 +5,21 @@ import CoustomerData from "@/app/Data/CoustomerData";
 
 const CoustomerServices = () => {
   return (
-    <div className="pt-[56px] px-[19px] md:px-[208px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-[82px]">
+    <>
+      <div className="text-center pb-[56px] pt-[36px] md:pt-[115px] md:px-[208px]">
+      <h3 className="text-[32px] font-semibold">Customer Success Stories</h3>
+      <div className="text-start pt-[19px]">
+      <p className="text-[24px] font-sans">What<span className="font-semibold"> 2,000+ </span>real estate agents are saying?</p>
+      <p className="text-[24px] pt-[13px]">See how <span> real estate professionals</span>save time and money while boosting sales with <span> RealtoGen.ai.</span> Directly from our satisfied clients.</p>
+      </div>
+      </div>
+    <div className=" pb-[36px] md:pb-[128px] px-[19px] md:px-[208px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-[82px]">
       {CoustomerData.map((item) => (
         <div
           key={item.id}
           className="flex gap-[6px] justify-center bg-white w-full h-auto rounded-[12px] px-[15px] py-[36px] md:py-[27px] shadow-lg"
         >
-          <div className="flex gap-[10px] relative top-[-11px] md:top-[-39px] bottom-0">
+          <div className="flex gap-[10px] relative top-[-46px] md:top-[-39px] bottom-0">
             <CommaIcon />
             <CommaIcon />
           </div>
@@ -39,6 +47,7 @@ const CoustomerServices = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 
