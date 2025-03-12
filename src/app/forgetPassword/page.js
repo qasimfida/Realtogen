@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const ForgetPassword = () => {
   return (
-    <div className="md:pt-[64px] md:pb-[58px]">
+    <div className="md:py-40 py-20">
       <div className="px-[55px] text-center">
         <h1 className="text-[24px] md:text-[32px] font-semibold">Forgot Your Passsword?</h1>
         <p className="text-[16px] text-[#3141A30] font-normal">
@@ -19,7 +19,7 @@ const ForgetPassword = () => {
               Email
             </Label>
             <Input
-              className={"rounded-[13px] py-2.5 h-[50px]"}
+              className={"rounded-[13px] py-6"}
               type="email"
               id="email"
               placeholder="jhondoe@gmail.com"
@@ -31,7 +31,7 @@ const ForgetPassword = () => {
           >
             <Button
               variant="primary"
-              className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white text-[16px] font-semibold"
+              className="bg-[#426BFF] w-full md:w-[326px] py-6 text-white text-[16px] font-semibold"
             >
               <Link href="/loggedIn">Send Code</Link>
             </Button>
