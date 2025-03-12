@@ -13,12 +13,12 @@ const Price = () => {
         </p>
       </div>
       <div className="flex gap-[12px] md:gap-[141px] pt-[66px] text-white">
-        <div className="flex flex-col gap-[5px]">
-          <h1 className="text-[32px] font-semibold">Monthly</h1>
+        <div className="flex flex-col justify-center gap-[5px] max-sm:px-[22px] max-sm:py-[12px] max-sm:bg-white max-sm:rounded-full max-sm:text-black">
+          <h1 className="text-[16px] md:text-[32px] font-semibold">Monthly</h1>
           <div className="md:block hidden w-[100%] h-[2px] bg-white"></div>
         </div>
         <div className="flex items-center gap-[12px]">
-          <p>Yearly</p>
+          <p className="text-[16px] md:text-[32px] font-semibold">Yearly</p>
           <div className="text-[#1DF615] bg-[#31959D] px-[15px] py-[5px] rounded-full">
             up to 30% off
           </div>
