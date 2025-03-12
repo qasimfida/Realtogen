@@ -84,7 +84,7 @@ const Register = () => {
   };
 
   return (
-    <div className="md:pt-[64px] md:pb-[58px]">
+    <div className="md:pt-40 pt-10 md:pb-24 pb-10">
       <div className="px-[55px] text-center md:mt-0 mt-20">
         <h1 className="text-[24px] md:text-[32px] font-semibold">Create account</h1>
         <p className="text-[16px] text-[#3141A30] font-normal">

@@ -24,9 +24,10 @@ const Navbar = () => {
 
   return (
     <>
-      <div
-        className={`fixed top-0 left-0 md:left-[12%] w-full max-w-6xl mx-auto px-6 md:px-16 py-4 flex items-center justify-between transition-all duration-300 z-50 ${
-          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2 left-0 md:left-[12%]" : "bg-transparent"
+    <div className="flex justify-center">
+    <div
+        className={`fixed top-0 w-full  max-w-7xl mx-auto px-4 md:px-16 py-4 flex items-center justify-between transition-all duration-300 z-50 ${
+          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2  w-full  max-w-7xl mx-auto px-4 md:px-16" : "bg-transparent"
         }`}
       >
 
@@ -71,6 +72,8 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+    </div>
+      
 
       
       {isMenuOpen && (

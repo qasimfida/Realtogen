@@ -17,7 +17,7 @@ const Login = () => {
   };
 
   return (
-    <div className="md:pt-[64px] md:pb-[58px]">
+    <div className="md:py-40 py-20 ">
       <div className="px-[55px] text-center md:mt-0 mt-20">
         <h1 className="text-[24px] md:text-[32px] font-semibold">
           Login to your account
