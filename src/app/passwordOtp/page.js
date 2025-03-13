@@ -22,7 +22,7 @@ const PasswordOtp = () => {
   }, [timer]);
 
   return (
-    <div className="pt-[128px] md:pb-[58px]">
+    <div className="md:py-40 py-20">
       <div className="px-[55px] text-center">
         <h1 className="text-[24px] md:text-[32px] font-semibold">
           Forgot Your Password?

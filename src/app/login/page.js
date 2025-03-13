@@ -10,7 +10,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { login, error, loading } = useAuth();
-
+;
   const handleSubmit = async (e) => {
     e.preventDefault();
     await login(email, password);
@@ -34,6 +34,7 @@ const Login = () => {
             type="email"
             id="email"
             placeholder="jhondoe@gmail.com"
+            className="py-6"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -46,6 +47,7 @@ const Login = () => {
             type="password"
             id="password"
             placeholder="****************"
+             className="py-6"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -54,30 +56,17 @@ const Login = () => {
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
 
-        {/* <Button
-          className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white"
+        <Button
+          className="bg-[#426BFF] w-full py-6 md:w-[330px] text-white"
           onClick={handleSubmit}
           disabled={loading}
         >
           {loading ? "Logging in..." : "Log in"}
-        </Button> */}
-        <div
-            className="bg-gradient-to-r from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-full md:w-[330px] h-[50px] flex justify-center items-center rounded-[8px]"
-            style={{ boxShadow: "0 3px 14px 3px rgba(66, 107, 255, 0.3)" }}
-          >
-            <Button
-              variant="primary"
-              className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white text-[16px] font-semibold"
-              onClick={handleSubmit}
-              disabled={loading}
-            >
-              {loading ? "Logging in..." : "Log in"}
-            </Button>
-          </div>
+        </Button>
 
-        <Button variant="outline" className="w-full md:w-[326px] h-[46px]">
+        <Button variant="outline" className=" py-6 md:w-[330px]">
           <FaGoogle />
-          <span className="ml-2">Continue with Google</span>
+          <span className="ml-2 ">Continue with Google</span>
         </Button>
       </div>
       <div className="px-[55px] pt-[25px] flex flex-col items-center gap-[25px]">
