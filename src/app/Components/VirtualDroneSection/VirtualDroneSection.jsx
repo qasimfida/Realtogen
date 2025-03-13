@@ -5,7 +5,7 @@ import LayerIcon from "../../../../public/icons/LayerIcon";
 
 export default function VirtualDroneSection() {
   return (
-    <section className="bg-gray-100 px-4 text-center md:text-start">
+    <section className="px-4 text-center md:text-start">
       <h2 className="text-2xl font-bold text-gray-900">
         Effortless Selling with{" "}
         <span className="text-blue-500">One-Click Virtual Drone Shoot</span>

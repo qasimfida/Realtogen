@@ -13,6 +13,9 @@ export default function VirtualDroneCard({ imageSrc, title, description, icon })
             height={243}
             className="rounded-md w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
           />
+
+          <div className="absolute bottom-[2px] rounded-2xl inset-x-0 bg-gradient-to-t from-[#4170c0c2] to-transparent h-[25%]"></div>
+
           <div className="absolute inset-0 flex items-center justify-center text-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             🔗
           </div>
