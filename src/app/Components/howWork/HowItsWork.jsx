@@ -14,7 +14,7 @@ const HowItWorks = () => {
     {
       step: 2,
       title: "Upload Details & Branding",
-      description: "Upload Details & Branding Add your logo, images, and key property info. Our system then generates text, voiceovers, and subtitles tailored to your brand.",
+      description: "Upload Details & BrandingAdd your logo, images, and key property info. Our system then generates text, voiceovers, and subtitles tailored to your brand.",
       imageSrc: "/images/step-2.png"
     },
     {

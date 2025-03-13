@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from 'react';
-import { loginUser, registerUser } from '@/lib/api'; // Ensure registerUser is imported
+import { loginUser, registerUser } from '@/lib/api'; 
 
 const AuthContext = createContext();
 
@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // Login function
+
   const login = async (email,password) => {
     setLoading(true);
     try {
@@ -24,12 +24,12 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // Register function
+  
   const register = async (email, password) => {
     setLoading(true);
     try {
       const data = await registerUser(email, password);
-      setUser({ email, token: data.token }); // Store user after successful registration
+      setUser({ email, token: data.token }); 
       setError(null);
     } catch (err) {
       setError(err.message || 'Registration failed');
@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // Logout function
+
   const logout = () => {
     setUser(null);
   };
