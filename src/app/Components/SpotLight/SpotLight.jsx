@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const SpotLight = () => {
   return (
-    <div className="md:px-[208px] md:pb-[145px] ">
-      <section className="bg-[#141A30] text-white mt-[65px] px-[30px] py-12 md:pl-[75px] md:rounded-4xl">
+    <div className=" md:pb-[145px] ">
+      <section className="bg-[#141A30] text-white mt-[65px] py-12 md:pl-[75px] md:rounded-4xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-[62px] max-w-6xl mx-auto  ">
           <div className="md:w-[437px] w-full max-sm:text-center">
             <h2 className="text-xl md:text-2xl font-semibold text-[#1DF615]">
