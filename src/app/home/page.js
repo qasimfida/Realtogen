@@ -13,15 +13,19 @@ import CoustomerServices from "../Components/CoustomerServices/CoustomerServices
 export default function Home() {
   return (
     <div className="bg-[#EFF5FD]">
+      <div className=" px-[17px] md:px-[208px]">
       <HomeHero />
       <HomeSlider />
+      </div>
       <PromoSection/>
+      <div className=" px-[17px] md:px-[208px]">
       <CoustomerServices />
       <VirtualDroneSection />
       <Comparison/>
       <HowItWorks/>
       <Faqs/>
       <SpotLight/>
+      </div>
     </div>
   );
 }

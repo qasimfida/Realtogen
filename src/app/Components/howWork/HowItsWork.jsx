@@ -26,7 +26,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className=" pb-12 text-center md:px-0 md:mx-[208px]">
+    <div className=" pb-12 text-center">
       <h2 className="text-[32px] text-[#141A30] font-semibold py-3">How It Works?</h2>
       <p className="text-[#141A30] font-normal md:text-[24px] text-[14px] my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 

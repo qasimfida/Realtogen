@@ -26,13 +26,13 @@ const Navbar = () => {
     <>
     <div className="flex justify-center">
     <div
-        className={`fixed top-0 w-full  max-w-7xl mx-auto px-4 md:px-16 py-4 flex items-center justify-between transition-all duration-300 z-50 ${
-          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2  w-full  max-w-7xl mx-auto px-4 md:px-16" : "bg-transparent"
+        className={`fixed top-0 w-full max-w-[1018px] mx-auto px-4 md:px-[20px] py-4 flex items-center justify-between transition-all duration-300 z-50 ${
+          isScrolled ? "bg-white shadow-md border-b rounded-full mt-2  w-full max-w-[1018px] mx-auto px-4 md:px-[20px]" : "bg-transparent"
         }`}
       >
 
         <div className="flex items-center gap-8">
-          <Link href="/home" className="flex items-center gap-2 text-[18px] font-semibold">
+          <Link href="/home" className="flex items-center gap-2 text-[18px] font-bold">
             <Image src={logo} alt="RealtoGen Logo" width={30} height={30} />
             RealtoGen
           </Link>
