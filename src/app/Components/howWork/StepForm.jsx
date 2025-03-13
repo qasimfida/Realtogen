@@ -15,7 +15,7 @@ const StepCard = ({ step, title, description, imageSrc }) => {
     
     <h3 className="text-2xl font-semibold text-[#141A30] mt-2 md:py-0 py-4">{title}</h3>
     
-    <p className="text-[#141A30] px-4 text-base mt-2 w-[274px] flex-grow">{description}</p>
+    <p className="text-[#141A30] px-4 text-center text-base mt-2 w-[274px] flex-grow">{description}</p>
   
     <div className="mt-auto">
       <Image
