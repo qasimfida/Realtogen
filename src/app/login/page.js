@@ -30,6 +30,7 @@ const Login = () => {
         <div className="grid w-full md:w-[330px] max-w-sm items-center gap-1.5">
           <Label htmlFor="email">Email</Label>
           <Input
+          className={"py-[16px] h-[50px]"}
             type="email"
             id="email"
             placeholder="jhondoe@gmail.com"
@@ -41,6 +42,7 @@ const Login = () => {
         <div className="grid max-w-sm items-center gap-1.5 w-full md:w-[330px]">
           <Label htmlFor="password">Password</Label>
           <Input
+          className={"py-[16px] h-[50px]"}
             type="password"
             id="password"
             placeholder="****************"
@@ -52,13 +54,26 @@ const Login = () => {
 
         {error && <p className="text-red-500 text-sm">{error}</p>}
 
-        <Button
+        {/* <Button
           className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white"
           onClick={handleSubmit}
           disabled={loading}
         >
           {loading ? "Logging in..." : "Log in"}
-        </Button>
+        </Button> */}
+        <div
+            className="bg-gradient-to-r from-[#ffffff] via-[#5959595e] to-[#f8f8f8] w-full md:w-[330px] h-[50px] flex justify-center items-center rounded-[8px]"
+            style={{ boxShadow: "0 3px 14px 3px rgba(66, 107, 255, 0.3)" }}
+          >
+            <Button
+              variant="primary"
+              className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white text-[16px] font-semibold"
+              onClick={handleSubmit}
+              disabled={loading}
+            >
+              {loading ? "Logging in..." : "Log in"}
+            </Button>
+          </div>
 
         <Button variant="outline" className="w-full md:w-[326px] h-[46px]">
           <FaGoogle />

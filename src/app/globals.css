@@ -125,12 +125,11 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Cal Sans', sans-serif;
   }
 }
-@font-face {
+/* @font-face {
   font-family: 'Cal Sans', sans-serif;
   src: url('/calSans.woff') format('woff'),
   url('/CalSans.woff2') format('woff2');
   font-style: normal;
-}
+} */
