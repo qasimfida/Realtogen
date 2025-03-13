@@ -20,10 +20,10 @@ export default function VirtualDroneCard({ imageSrc, title, description, icon })
             🔗
           </div>
         </div>
-        <h3 className="text-[24px] font-semibold md:leading-[24px] mt-4 flex sm:px-[30px] gap-[16px] text-start text-white max-sm:p-[23px] items-center max-sm:text-[22px] ">
+        <h3 className="text-[24px] font-semibold md:leading-[24px] mt-4 flex sm:px-[30px] gap-[16px] text-start text-white max-sm:p-[10px] items-center max-sm:text-[22px] ">
          <span className="max-sm:hidden">{icon}</span>  {title}
         </h3>
-        <p className="sm:text-[#416FC0] group-hover:text-white mt-2 text-start pb-[20px] px-[30px] max-sm:text-[#fff] ">
+        <p className="sm:text-[#416FC0] group-hover:text-white mt-2 text-start pb-[20px] sm:px-[30px] max-sm:px-[10px] max-sm:text-[#fff] ">
           {description}
         </p>
       </CardContent>
