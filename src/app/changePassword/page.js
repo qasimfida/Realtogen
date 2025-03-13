@@ -24,7 +24,7 @@ const ChangePassword = () => {
               className={"rounded-[13px] py-2.5 h-[50px]"}
               type="email"
               id="pasword"
-              placeholder="****************"
+              placeholder="******"
             />
           </div>
           <div className="grid max-w-sm items-center gap-1.5 w-full md:w-[330px]">
@@ -47,7 +47,7 @@ const ChangePassword = () => {
               variant="primary"
               className="bg-[#426BFF] w-full md:w-[326px] h-[46px] text-white text-[16px] font-semibold"
             >
-              <Link href="/loggedIn">Change  Password</Link>
+              <Link href="/login">Change  Password</Link>
             </Button>
           </div>
         </div>
