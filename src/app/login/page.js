@@ -30,6 +30,7 @@ const Login = () => {
         <div className="grid w-full md:w-[330px] max-w-sm items-center gap-1.5">
           <Label htmlFor="email">Email</Label>
           <Input
+          className={"py-[16px] h-[50px]"}
             type="email"
             id="email"
             placeholder="jhondoe@gmail.com"
@@ -42,6 +43,7 @@ const Login = () => {
         <div className="grid max-w-sm items-center gap-1.5 w-full md:w-[330px]">
           <Label htmlFor="password">Password</Label>
           <Input
+          className={"py-[16px] h-[50px]"}
             type="password"
             id="password"
             placeholder="****************"

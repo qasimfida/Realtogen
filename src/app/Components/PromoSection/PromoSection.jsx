@@ -5,15 +5,14 @@ import { Button } from "@/components/ui/button";
 
 export default function PromoSection() {
   return (
-    <section className="bg-[#141A30] text-white mt-[65px] py-12 md:px-0">
-      <div className="flex flex-col md:flex-row items-center gap-[16px] md:gap-[47px]  mx-auto px-[32px] md:px-[208px] ">
-       
+    <section className="bg-[#141A30] text-white mt-[65px] py-[66px] md:px-0">
+      <div className="flex flex-col md:flex-row items-center gap-[16px] md:gap-[47px] px-[32px] md:px-[208px] ">
+       <div className="md:pl-[55px]">
         <div className="w-full md:w-[440px] md:h-[476px] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
           <span className="text-3xl">🔗</span>
         </div>
-
-      
-        <div className="md:w-[430px] w-full max-sm:text-center">
+        </div>
+        <div className="md:w-[479px] w-full max-sm:text-center">
           <h2 className="text-xl md:text-2xl font-semibold">
             <span className="text-[#1DF615]">Ready</span> to Transform Your Listings?
           </h2>
@@ -24,7 +23,6 @@ export default function PromoSection() {
             No on-site filming, no hefty fees—just ultra-affordable AI-powered videos. Let our AI handle the heavy lifting at the lowest cost!
           </p>
 
-      
           <div className="flex flex-col md:flex-row  gap-4 mt-6 ">
               <Button
                 variant="outline"

@@ -6,14 +6,14 @@ import CoustomerData from "@/app/Data/CoustomerData";
 const CoustomerServices = () => {
   return (
     <>
-      <div className="text-center pb-[56px] pt-[36px] md:pt-[115px] md:px-[208px]">
+      <div className="text-center pb-[56px] pt-[36px] md:pt-[115px]">
       <h3 className="text-[20px] md:text-[32px] font-semibold">Customer Success Stories</h3>
       <div className="max-sm:px-[36px] md:text-start pt-[19px] text-center">
-      <p className="text-[14px] md:text-[24px] font-sans">What<span className="font-semibold"> 2,000+ </span>real estate agents are saying?</p>
-      <p className="text-[14px] md:text-[24px] pt-[13px]">See how <span> real estate professionals</span>save time and money while boosting sales with <span> RealtoGen.ai.</span> Directly from our satisfied clients.</p>
+      <p className="text-[14px] md:text-[24px] font-sans">What<span className="font-semibold text-[#141A30]"> 2,000+ </span>real estate agents are saying?</p>
+      <p className="text-[14px] md:text-[24px] pt-[13px]">See how <span className="font-semibold text-[#141A30]"> real estate professionals</span> save time and money while boosting sales with <span className="font-semibold text-[#141A30]"> RealtoGen.ai.</span> Directly from our satisfied clients.</p>
       </div>
       </div>
-    <div className=" pb-[36px] md:pb-[128px] px-[19px] md:px-[208px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-[82px]">
+    <div className=" pb-[36px] md:pb-[138px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-[82px]">
       {CoustomerData.map((item) => (
         <div
           key={item.id}
@@ -24,8 +24,8 @@ const CoustomerServices = () => {
             <CommaIcon />
           </div>
 
-          <div className="flex flex-col gap-[6px] items-start sm:items-start">
-            <p className="text-start text-[14px] font-medium md:text-[16px] md:font-bold text-[#141A30]">
+          <div className="flex flex-col w-[327px] gap-[6px] items-start sm:items-start">
+            <p className="text-start text-[14px] font-medium md:text-[16px] md:font-medium leading-[18px] text-[#141A30]">
               {item.text}
             </p>
             <div className="flex items-start gap-[10px] sm:gap-[15px] ">
@@ -35,12 +35,12 @@ const CoustomerServices = () => {
             </div>
           </div>
 
-          <div className="md:relative md:left-[42px]">
+          <div className="md:relative w-auto md:left-[42px]">
             <Image
               src={item.img}
               alt="customer image"
-              className="md:w-[227px] w-[140px] h-[61px] md:h-[100px] object-cover rounded-full"
-              width={227}
+              className="object-cover rounded-full"
+              width={"auto"}
               height={100}
             />
           </div>
