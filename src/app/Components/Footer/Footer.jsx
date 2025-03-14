@@ -98,7 +98,7 @@ const Footer = () => {
         <div className="flex gap-[30px] md:flex-row flex-col">
           <div className="flex text-[18px] font-semibold text-white gap-[9px]">
             <Image
-              src={logo}
+              src="/images/rlatogen.png"
               alt="RealtoGen Logo"
               width={24}
               height={24}
