@@ -26,11 +26,11 @@ const CustomerSlider = ({ CoustomerData }) => {
                 >
                     {groupedData.map((group, index) => (
                         <SwiperSlide key={index}>
-                            <div className="grid  px-[20px] sm:grid-cols-3 max-sm:grid-cols-1 gap-[80px] gap-y-5 sm:w-[1440px] w-[90%] sm:mx-auto">
+                            <div className="grid mx-auto sm:grid-cols-3 max-sm:grid-cols-1 gap-[80px] gap-y-5 sm:w-[1440px] w-[90%] sm:mx-auto">
                                 {group.map((item) => (
                                     <div
                                         key={item.id}
-                                        className="flex gap-[6px] justify-center sm:w-[420px]  w-[100%] relative bg-white h-auto mt-[20px] pl-[36px] pr-[64px] pt-[27px] pb-[23px] rounded-[12px]"
+                                        className="mx-auto flex gap-[6px] justify-center sm:w-[420px] max-sm:px-[17px] max-sm:py-[36px]  w-[100%] relative bg-white h-auto mt-[20px] sm:pl-[36px] sm:pr-[64px] sm:pt-[27px] sm:pb-[23px] rounded-[12px]"
                                     >
                                         <div className="flex gap-[10px] absolute top-[-8px] left-[19px] z-10 ">
                                             <CommaIcon />
@@ -48,11 +48,11 @@ const CustomerSlider = ({ CoustomerData }) => {
                                             </div>
                                         </div>
 
-                                        <div className="absolute w-auto -right-[50px] top-[10px]">
+                                        <div className="sm:absolute sm:w-auto sm:-right-[50px] sm:top-[10px] flex justify-center sm:justify-end w-full">
                                             <Image
                                                 src={item.img}
                                                 alt="customer image"
-                                                className="object-cover rounded-full"
+                                                className="sm:object-cover rounded-full"
                                                 width={100}
                                                 height={100}
                                             />
