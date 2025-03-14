@@ -42,7 +42,7 @@ const HowItWorks = () => {
           <NewStepCard key={step.step} {...step} />
         ))}
       </div>
-      <Button className="mt-6 px-10 py-2 bg-[#426BFF] text-white border-white border-[px] rounded-lg">Try Now</Button>
+      <Button className="mt-6 px-10 py-2 bg-[#426BFF] text-white border-white border-[2px] rounded-lg">Try Now</Button>
 
       <div>
         
