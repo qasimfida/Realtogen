@@ -20,12 +20,15 @@ export default function Home() {
       <PromoSection/>
       <div className=" px-[17px] md:px-[208px]">
       <CoustomerServices />
-      <VirtualDroneSection />
-      <Comparison/>
+      <VirtualDroneSection />    
+      </div>
+      <Comparison/>   
+      <div className=" px-[17px] md:px-[208px]">
       <HowItWorks/>
       <Faqs/>
       <SpotLight/>
       </div>
+      
     </div>
   );
 }

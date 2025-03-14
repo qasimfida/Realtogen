@@ -5,7 +5,7 @@ import { CheckCircle, ShieldCheck, AlertTriangle, DollarSign, Clock } from "luci
 
 const Comparison = () => {
   return (
-    <div className="pt-[68px] md:pb-[80px] md:px-0 px-4 flex items-center sm:w-[1024px] mx-auto w-full">
+    <div className="pt-[68px] md:pb-[80px] md:px-0 sm:px-4 flex items-center sm:w-[1024px] mx-auto w-full">
       <div className=" py-[50px] w-full max-sm:px-[22px] md:px-[40px] text-center bg-white rounded-4xl">
         <h2 className="text-3xl font-extrabold mb-5 text-[#141A30]">
           Why Choose Us? <span className="font-medium ">- Learn Our Advantages</span>
