@@ -20,7 +20,7 @@ import "swiper/css/pagination";
                     spaceBetween={30}
                     slidesPerView={1}
                     loop={true}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}                   
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}                  
                     className="sm:w-full"
                 >
                     {groupedData.map((group, index) => (
@@ -47,11 +47,11 @@ import "swiper/css/pagination";
                                             </div>
                                         </div>
 
-                                        <div className="sm:absolute sm:w-auto sm:-right-[50px] sm:top-[10px] flex justify-center sm:justify-end w-full">
+                                        <div className="sm:absolute sm:w-auto sm:-right-[50px] sm:top-[10px] max-sm:flex max-sm:justify-center max-sm:items-center w-full">
                                             <Image
                                                 src={item.img}
                                                 alt="customer image"
-                                                className="sm:object-cover rounded-full"
+                                                className="sm:object-cover rounded-full max-sm:w-auto  max-sm:h-[60px]"
                                                 width={100}
                                                 height={100}
                                             />

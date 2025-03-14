@@ -53,6 +53,30 @@ const CoustomerData = [
         title: "Ayşe Nurtop , Turkey",
         img: img4
     },
+    {
+        id:9,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img1
+    },
+    {
+        id:10,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img2
+    },
+    {
+        id:11,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img3
+    },
+    {
+        id:12,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
 
 
 ]
