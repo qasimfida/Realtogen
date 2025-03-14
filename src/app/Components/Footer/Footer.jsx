@@ -2,7 +2,7 @@ import React from "react";
 import InstaIcon from "../../../../public/icons/InstaIcon";
 import FacebookIcon from "../../../../public/icons/FacebookIcon";
 import YoutubeIcon from "../../../../public/icons/YoutubeIcon";
-import logo from "../../../../public/images/logo.png"
+import logo from '/public/images/logo.png';
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
