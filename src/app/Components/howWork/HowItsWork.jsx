@@ -32,7 +32,7 @@ const HowItWorks = () => {
     <div className="pb-12 text-center sm:w-[1224] ">
       <h2 className="text-[32px] text-[#141A30] font-semibold py-3">How It Works?</h2>
       <p className="text-[#141A30] font-normal md:text-[24px] text-[14px] my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-16 md:mx-0 mx-2 max-sm:hidden">
+      <div className="flex flex-col md:flex-row px-[27px] items-center justify-center gap-4 mt-16 md:mx-0 mx-2 max-sm:hidden">
         {steps.map((step) => (
           <StepCard key={step.step} {...step} />
         ))}

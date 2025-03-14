@@ -10,7 +10,7 @@ import Image from "next/image";
 const HomeHero = () => {
   return (
     <>
-      <div className="flex pt-[15px] md:pt-[78px] pl-[16px]">
+      <div className="flex justify-center pt-[15px] md:mt-[78px] pl-[16px]">
       <div className="flex  relative pt-[15px] md:pt-[78px] overflow-hidden flex-col-reverse md:flex-row gap-[32px]">
       <div className="  absolute top-[16px] left-[250px] max-sm:left-0 max-sm:top-[300px]">
       <Image src="/images/homeBg.png" alt="Image description" width={500} height={300} className="sm:w-[800px] max-sm:w-[400px]" />

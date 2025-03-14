@@ -12,7 +12,7 @@ const CoustomerServices = () => {
     <>
       {/* Header Section */}
       <div className="text-center pb-[56px] pt-[36px] md:pt-[115px] sm:w-[1024px] mx-auto">
-        <h3 className="text-[20px] md:text-[32px] font-semibold">
+        <h3 className="text-[20px] md:text-[32px] font-bold">
           Customer Success Stories
         </h3>
         <div className="max-sm:px-[36px] md:text-start pt-[19px] text-center">

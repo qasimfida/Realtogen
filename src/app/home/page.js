@@ -12,24 +12,22 @@ import CoustomerServices from "../Components/CoustomerServices/CoustomerServices
 
 export default function Home() {
   return (
-    <div className="bg-[#EFF5FD]">
-      <div className=" px-[17px] md:px-[208px]">
+    <div className="bg-[#EFF5FD] ">
+      <div className=" w-full md:w-[1024px] mx-auto">
       <HomeHero />
       <HomeSlider />
       </div>
       <PromoSection/>
       <CoustomerServices />
-      <div className=" px-[17px] md:px-[208px]">
+      <div className="w-full md:w-[1024px] mx-auto ">
       <VirtualDroneSection />    
       </div>
       <Comparison/>   
-      <div className=" sm:px-[17px] md:px-[208px]">
+      <div className="w-full md:w-[1024px] mx-auto">
       <HowItWorks/>
       <Faqs/>
-      </div>
-       
       <SpotLight/>
-      
+      </div>
     </div>
   );
 }

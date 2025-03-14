@@ -6,22 +6,21 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const CustomerSlider = ({ CoustomerData }) => {
-
-    const groupedData = [];
-    for (let i = 0; i < CoustomerData.length; i += 6) {
-        groupedData.push(CoustomerData.slice(i, i + 6));
-    }
+    const CustomerSlider = ({ CoustomerData }) => {
+        const groupedData = [];
+        for (let i = 0; i < CoustomerData.length; i += 6) {
+            groupedData.push(CoustomerData.slice(i, i + 6));
+        }
 
     return (
         <div className="flex justify-center pb-[36px] md:pb-[138px]">
-            <div className="w-[100%] max-w-[1440px]">
+            <div className="w-[100%] max-w-[1500px]">
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay]}
                     spaceBetween={30}
                     slidesPerView={1}
                     loop={true}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}                   
                     className="sm:w-full"
                 >
                     {groupedData.map((group, index) => (
@@ -30,7 +29,7 @@ const CustomerSlider = ({ CoustomerData }) => {
                                 {group.map((item) => (
                                     <div
                                         key={item.id}
-                                        className="mx-auto flex gap-[6px] justify-center sm:w-[420px] max-sm:px-[17px] max-sm:py-[36px]  w-[100%] relative bg-white h-auto mt-[20px] sm:pl-[36px] sm:pr-[64px] sm:pt-[27px] sm:pb-[23px] rounded-[12px]"
+                                        className="mx-auto flex gap-[6px] justify-center sm:w-[450px] max-sm:px-[17px] max-sm:py-[36px]  w-[100%] relative bg-white h-auto mt-[20px] sm:pl-[36px] sm:pr-[64px] sm:pt-[27px] sm:pb-[23px] rounded-[12px]"
                                     >
                                         <div className="flex gap-[10px] absolute top-[-8px] left-[19px] z-10 ">
                                             <CommaIcon />

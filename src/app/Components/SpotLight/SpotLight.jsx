@@ -6,25 +6,25 @@ import Image from "next/image";
 const SpotLight = () => {
   return (
     <div className=" md:pb-[145px] ">
-      <section className="bg-[#141A30] text-white mt-[65px] py-12 md:pl-[75px] md:rounded-4xl">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-[62px] max-w-6xl mx-auto  ">
-          <div className="md:w-[437px] w-full max-sm:text-center">
+      <section className="bg-[#141A30] text-white mt-[65px] pt-[58px] pb-[75px] md:pl-[75px] md:rounded-4xl">
+        <div className="flex  flex-col md:flex-row gap-[62px]  ">
+          <div className="md:w-[437px] py-[18px] flex flex-col gap-[25px]  w-full max-sm:text-center">
             <h2 className="text-xl md:text-2xl font-semibold text-[#1DF615]">
               <span className="text-white">
                 Give Your Properties the Spotlight{" "}
               </span>
               They Deserve
             </h2>
-            <p className="text-gray-300 mt-4 leading-9">
+            <p className="text-gray-300  leading-9">
               Stop spending thousands on drone shoots and design. Let RealtoGen
               handle both—from AI‐generated aerial views to ready‐to‐post social
               media designs
             </p>
-            <p className="text-white font-semibold mt-2 leading-9">
+            <p className="text-white font-semibold leading-9">
               You can save time, cut costs, and focus on selling. Start
               transforming your listing designs.
             </p>
-            <div className="md:flex gap-4 mt-6 ">
+            <div className="md:flex gap-4  ">
               <Button
                 variant="default"
                 className="bg-blue-500 hover:bg-blue-600 border-[#b8b8b8] border-2 font-semibold text-[16px] px-10 py-6 md:my-0 my-4 shadow-lg"
@@ -41,7 +41,7 @@ const SpotLight = () => {
               </Button>
             </div>
             <div className="flex items-center justify-center">
-              <p className="text-white font-semibold mt-4 text-[16px]">
+              <p className="text-white font-semibold text-[16px]">
                 See all plans and
                 {""}
                 <a href="#" className="text-blue-400">
@@ -50,8 +50,10 @@ const SpotLight = () => {
               </p>
             </div>
           </div>
-          <div className="w-full max-sm:w-[90%] mx-auto md:w-[450px] md:h-[476px] h-[300px] bg-gray-200 rounded-[46px] md:rounded-r-[0px] flex items-center justify-center">
+          <div className="flex justify-end">
+          <div className="w-full max-sm:w-[90%] mx-auto md:w-[450px] md:h-[476px] h-[300px] bg-[#D9D9D9] rounded-[46px] md:rounded-r-[0px] flex items-center justify-center">
             <span className="text-3xl"><Image src="/link.svg" alt="Image description" width={28} height={20} className="" /></span>
+          </div>
           </div>
         </div>
       </section>

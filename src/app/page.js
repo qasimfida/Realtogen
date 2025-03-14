@@ -8,7 +8,7 @@ import Home from "./home/page";
 
 export default function Page() {
   return (
-    <div className="bg-[#EFF5FD]">
+    <div className="bg-[#47e41f]">
       <Home/>
     </div>
   );
