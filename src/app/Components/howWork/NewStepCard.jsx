@@ -6,7 +6,7 @@ import Image from "next/image";
 const NewStepCard = ({ step, title, description, imageSrc, imageIcon }) => {
   return (
     <div
-      className="relative rounded-lg shadow-lg max-w-sm h-auto p-6 text-center flex flex-col border-4 md:border-[5px] border-white  "
+      className="relative rounded-lg shadow-lg max-w-sm h-auto pt-[11px] px-[17px] pb-[26px] flex flex-col border-4 md:border-[5px] border-white  "
       style={{
         background: "conic-gradient(from 0deg at 50% 50%, #426BFF 0deg, #284099 360deg)",
       }}
@@ -16,7 +16,7 @@ const NewStepCard = ({ step, title, description, imageSrc, imageIcon }) => {
       </div>
 
 
-      <div className="mt-4">
+      <div >
         <Image
           src={imageIcon} 
           alt="Step Icon"
@@ -26,7 +26,7 @@ const NewStepCard = ({ step, title, description, imageSrc, imageIcon }) => {
         />
       </div>
 
-      <h3 className="text-lg md:text-xl font-semibold text-white ">{title}</h3>
+      <h3 className="text-lg md:text-xl font-semibold text-white mt-[10px] mb-[20   px]">{title}</h3>
 
 
       <p className="text-white px-4 text-sm md:text-base mt-2 w-full flex-grow">
