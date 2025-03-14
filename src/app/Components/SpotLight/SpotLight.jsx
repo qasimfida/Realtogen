@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SpotLight = () => {
   return (
-    <div className=" md:pb-[145px] ">
+    <div className=" md:pb-[145px] sm:w-[1024px] mx-auto">
       <section className="bg-[#141A30] text-white mt-[65px] py-12 md:pl-[75px] md:rounded-4xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-[62px] max-w-6xl mx-auto  ">
           <div className="md:w-[437px] w-full max-sm:text-center">
