@@ -18,16 +18,17 @@ export default function Home() {
       <HomeSlider />
       </div>
       <PromoSection/>
-      <div className=" px-[17px] md:px-[208px]">
       <CoustomerServices />
+      <div className=" px-[17px] md:px-[208px]">
       <VirtualDroneSection />    
       </div>
       <Comparison/>   
-      <div className=" px-[17px] md:px-[208px]">
+      <div className=" sm:px-[17px] md:px-[208px]">
       <HowItWorks/>
       <Faqs/>
-      <SpotLight/>
       </div>
+       
+      <SpotLight/>
       
     </div>
   );

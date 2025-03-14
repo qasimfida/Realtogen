@@ -1,0 +1,71 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import CommaIcon from "../../../../public/icons/CommaIcon";
+import Image from "next/image";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+const CustomerSlider = ({ CoustomerData }) => {
+
+    const groupedData = [];
+    for (let i = 0; i < CoustomerData.length; i += 6) {
+        groupedData.push(CoustomerData.slice(i, i + 6));
+    }
+
+    return (
+        <div className="flex justify-center pb-[36px] md:pb-[138px]">
+            <div className="w-[100%] max-w-[1440px]">
+                <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    loop={true}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                    className="sm:w-full"
+                >
+                    {groupedData.map((group, index) => (
+                        <SwiperSlide key={index}>
+                            <div className="grid  px-[20px] sm:grid-cols-3 max-sm:grid-cols-1 gap-[80px] gap-y-5 sm:w-[1440px] w-[90%] sm:mx-auto">
+                                {group.map((item) => (
+                                    <div
+                                        key={item.id}
+                                        className="flex gap-[6px] justify-center sm:w-[420px]  w-[100%] relative bg-white h-auto mt-[20px] pl-[36px] pr-[64px] pt-[27px] pb-[23px] rounded-[12px]"
+                                    >
+                                        <div className="flex gap-[10px] absolute top-[-8px] left-[19px] z-10 ">
+                                            <CommaIcon />
+                                            <CommaIcon />
+                                        </div>
+
+                                        <div className="flex flex-col sm:w-[427px] gap-[6px] items-start">
+                                            <p className="text-start text-[16px] font-medium md:text-[16px] md:font-medium leading-[18px] text-[#141A30]">
+                                                {item.text}
+                                            </p>
+                                            <div className="flex items-start gap-[10px] sm:gap-[15px]">
+                                                <span className="font-normal text-[16px] text-[#595959]">
+                                                    {item.title}
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div className="absolute w-auto -right-[50px] top-[10px]">
+                                            <Image
+                                                src={item.img}
+                                                alt="customer image"
+                                                className="object-cover rounded-full"
+                                                width={100}
+                                                height={100}
+                                            />
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+        </div>
+    );
+};
+
+export default CustomerSlider;
