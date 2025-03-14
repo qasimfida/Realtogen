@@ -80,7 +80,7 @@ const Footer = () => {
               directly in your inbox.
             </p>
           </div>
-          <div className="mt-[32px] max-sm:gap-[13px] md:mt-[47px] flex justify-between px-[7px] items-center rounded-2xl  bg-white h-[63px] w-[95%] mx-auto md:w-[413px] max-sm:px-[13px]">
+          <div className="mt-[32px] max-sm:gap-[13px] md:mt-[47px] flex justify-between px-[7px] items-center rounded-2xl  bg-white h-[63px] w-[95%] md:w-[413px] max-sm:px-[13px]">
             <Input
               placeholder="Enter your email address"
               className={"w-auto md:w-[78%] shadow-none  bg-white focus-visible:ring-0 focus:ring-0 focus:border-transparent border-none outline-none"}

@@ -9,7 +9,7 @@ export default function PromoSection() {
       <div className="flex flex-col md:flex-row items-center gap-[16px] md:gap-[47px] px-[32px] md:px-[208px] ">
        <div className="md:pl-[55px] w-full">
         <div className="w-auto md:w-[440px] md:h-[476px] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
-          <span className="text-3xl">🔗</span>
+          <span className="text-3xl"><Image src="/link.svg" alt="Image description" width={28} height={20} /></span>
         </div>
         </div>
         <div className="md:w-[479px] w-full max-sm:text-center">

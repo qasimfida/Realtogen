@@ -59,7 +59,7 @@ const HomeSlider = () => {
           </span>
         </p>
 
-        <div className="pt-[40px] overflow-hidden max-sm:w-full w-[auto]">
+        <div className="pt-[40px] max-sm:w-full w-[auto] ">
           <Carousel
             className="w-full max-w-[1024px] max-h-[434px] h-full"
             plugins={[
@@ -68,14 +68,14 @@ const HomeSlider = () => {
               }),
             ]}
           >
-            <CarouselContent className="flex gap-[40px]">
+            <CarouselContent className="flex sm:gap-[40px]">
               {Data.map((item) => (
                 <CarouselItem key={item.id} className="flex justify-center">
                   <div className="p-1 flex flex-col items-center">
                     <Card className="w-[216px] h-[384px] flex items-center justify-center bg-[#D9D9D9]">
                       <CardContent className="p-6">
                         <span className="text-2xl font-semibold text-[#D9D9D9]">
-                          🔗
+                          <Image src="/link.svg" alt="Image description" width={28} height={20} className="" />
                         </span>
                       </CardContent>
                     </Card>

@@ -12,12 +12,12 @@ import {
     const [activeItem, setActiveItem] = useState("item-1");
   
     return (
-      <div className="flex md:flex-row flex-col justify-center gap-[43px] py-10">
+      <div className="flex md:flex-row flex-col justify-between gap-[43px] py-10">
         <div className="text-center mb-8 flex flex-col gap-[28px]">
           <h1 className="text-[32px] font-semibold text-[#141A30]">Got questions?</h1>
           <h1 className="text-[32px] font-semibold text-[#5176FE]">- We have answers.</h1>
         </div>
-        <div className="md:w-[638px] w-full px-[16px]">
+        <div className=" sm:w-[60%] w-full mx-auto px-[16px]">
           <Accordion
             type="single"
             collapsible
