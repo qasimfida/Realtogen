@@ -13,7 +13,7 @@ export default function PromoSection() {
         </div>
         </div>
         <div className="md:w-[479px] w-full max-sm:text-center">
-          <h2 className="text-xl md:text-2xl font-semibold">
+          <h2 className="text-[20px] md:text-[32px] font-semibold">
             <span className="text-[#1DF615]">Ready</span> to Transform Your Listings?
           </h2>
           <p className="text-gray-300 mt-4 leading-9">

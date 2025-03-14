@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import { loginUser, registerUser } from '@/lib/api'; 
-import axios from 'axios';
+// import axios from 'axios';
 
 const AuthContext = createContext();
 
