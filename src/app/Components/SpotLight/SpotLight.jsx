@@ -50,7 +50,7 @@ const SpotLight = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-[450px] md:h-[476px] h-[300px] bg-gray-200 rounded-[46px] md:rounded-r-[0px] flex items-center justify-center">
+          <div className="w-full max-sm:w-[90%] mx-auto md:w-[450px] md:h-[476px] h-[300px] bg-gray-200 rounded-[46px] md:rounded-r-[0px] flex items-center justify-center">
             <span className="text-3xl"><Image src="/link.svg" alt="Image description" width={28} height={20} className="" /></span>
           </div>
         </div>

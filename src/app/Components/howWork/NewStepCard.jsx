@@ -26,10 +26,10 @@ const NewStepCard = ({ step, title, description, imageSrc, imageIcon }) => {
         />
       </div>
 
-      <h3 className="text-lg md:text-xl font-semibold text-white mt-[10px] mb-[20   px]">{title}</h3>
+      <h3 className="text-lg md:text-xl font-semibold text-white mt-[10px] text-[20px] font-cal mb-[20px]">{title}</h3>
 
 
-      <p className="text-white px-4 text-sm md:text-base mt-2 w-full flex-grow">
+      <p className="text-white px-4 md:text-base mt-2 w-full flex-grow font-inter font-normal text-[14px]">
         {description}
       </p>
     </div>

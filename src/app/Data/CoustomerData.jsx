@@ -28,6 +28,44 @@ const CoustomerData = [
         text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
         title: "Ayşe Nurtop , Turkey",
         img: img4
-    }
+    },
+    {
+        id:5,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+    {
+        id:6,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+    {
+        id:7,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+    {
+        id:8,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+    {
+        id:9,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+    {
+        id:10,
+        text: "Nobody believes me when I say these videos aren’t filmed on-site. RealtoGen AI is a total game-changer",
+        title: "Ayşe Nurtop , Turkey",
+        img: img4
+    },
+
+
 ]
 export default CoustomerData
