@@ -10,7 +10,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="flex flex-col pb-[18px] bg-[#141A30] lg:pl-[220px] lg:pr-[196px] px-[14px]">
-      <div className="flex flex-col-reverse sm:flex-col sm:items-center lg:flex-row max-sm:items-center lg:gap-[208px] sm:gap-[28px]  pt-[38px] pb-[19px] ">
+      <div className="flex flex-col-reverse sm:flex-col sm:items-center md:flex-row max-sm:items-center lg:gap-[208px] sm:gap-[28px]  pt-[38px] pb-[19px] ">
         <div className="max-sm:pt-[64px] w-full">
           <div className="max-sm:pb-[32px] max-sm:flex max-sm:flex-col max-sm:gap-[32px] ">
             <p className="text-[#ffffff83]">Social Media</p>
@@ -47,27 +47,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="max-sm:flex pt-[29px] justify-between">
-            <div className="">
-              <h1 className="text-[#ffffff83] max-sm:mb-[23px]">Quick Links</h1>
-              <div className="flex max-sm:flex-col gap-[32px] text-[16px] font-semibold text-white">
-                <Link href={"/"}>Home</Link>
-                <Link href={"/"}>Gallery</Link>
-                <Link href={"/"}>Features</Link>
-                <Link href={"/"}>Pricing</Link>
-                <Link href={"/"}>Blogs</Link>
-              </div>
 
-            </div>
-
-            <div className="hidden max-sm:flex flex-col gap-[25px] text-[16px] font-semibold text-white">
-              <h1 className="text-[#ffffff83]"> Terms & Conditions</h1>
-              <Link href={"/"}>Terms of Service</Link>
-              <Link href={"/"}>Refund Policy</Link>
-              <Link href={"/"}>Privacy Policy</Link>
-              <Link href={"/"}>Cookie Policy</Link>
-            </div>
-          </div>
         </div>
         <div className="mt-[14px]">
           <div className="max-sm:flex max-sm:flex-col max-sm:gap-[32px] max-sm:px-[13px]">
@@ -89,18 +69,32 @@ const Footer = () => {
               <Link href="#">Sign up</Link>
             </Button>
           </div>
-          <div className="pt-[42px] max-sm:hidden">
-            <h1 className="text-[#ffffff83]">Terms & Conditions</h1>
-            <div className="flex gap-[25px] text-[16px] font-semibold text-white">
+        </div>
+        </div>
+        <div className="flex justify-between pt-[29px]">
+            <div className="">
+              <h1 className="text-[#ffffff83] max-sm:mb-[23px]">Quick Links</h1>
+              <div className="flex max-sm:flex-col gap-[32px] text-[16px] font-semibold text-white">
+                <Link href={"/"}>Home</Link>
+                <Link href={"/"}>Gallery</Link>
+                <Link href={"/"}>Features</Link>
+                <Link href={"/"}>Pricing</Link>
+                <Link href={"/"}>Blogs</Link>
+              </div>
+
+            </div>
+
+            <div className=" text-[16px] font-semibold text-white">
+              <h1 className="text-[#ffffff83] max-sm:mb-[23px]"> Terms & Conditions</h1>
+              <div className="flex flex-col md:flex-row gap-[25px]">
               <Link href={"/"}>Terms of Service</Link>
               <Link href={"/"}>Refund Policy</Link>
               <Link href={"/"}>Privacy Policy</Link>
               <Link href={"/"}>Cookie Policy</Link>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="flex justify-between items-center md:flex-row flex-col-reverse">
+      <div className="flex justify-between items-center pt-[25px] md:flex-row flex-col-reverse">
         <div className="flex gap-[30px] md:flex-row flex-col">
           <div className="flex text-[18px] font-semibold text-white gap-[9px]">
             <Image
@@ -115,7 +109,7 @@ const Footer = () => {
             All rights reserved
           </p>
         </div>
-        <div className="pb-[32px]">
+        <div className="">
           <Button variant={"primary"} className={"rounded-full"}>
             Language:
             <Image
