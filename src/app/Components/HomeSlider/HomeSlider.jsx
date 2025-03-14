@@ -75,7 +75,7 @@ const HomeSlider = () => {
                     <Card className="w-[216px] h-[384px] flex items-center justify-center bg-[#D9D9D9]">
                       <CardContent className="p-6">
                         <span className="text-2xl font-semibold text-[#D9D9D9]">
-                          🔗
+                          <Image src="/link.svg" alt="Image description" width={28} height={20} className="" />
                         </span>
                       </CardContent>
                     </Card>

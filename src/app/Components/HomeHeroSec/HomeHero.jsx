@@ -11,16 +11,16 @@ const HomeHero = () => {
   return (
     <>
       <div className="flex pt-[15px] md:pt-[78px] pl-[16px]">
-      <div className="flex  relative pt-[15px] md:pt-[78px] sm:bg-[url('/images/homeBg.png')] max-sm:bg-none bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px] z-[]">
-      <div className=" sm:none absolute top-[300px] z-[-5]">
-      <Image src="/images/homeBg.png" alt="Image description" width={500} height={300} />
+      <div className="flex  relative pt-[15px] md:pt-[78px] overflow-hidden flex-col-reverse md:flex-row gap-[32px]">
+      <div className="  absolute top-0 left-[250px] max-sm:left-0 max-sm:top-[300px]">
+      <Image src="/images/homeBg.png" alt="Image description" width={500} height={300} className="sm:w-[800px] max-sm:w-[400px]" />
       </div>
-        <div className="flex flex-col items-cente md:items-start">
+        <div className="flex flex-col items-cente md:items-start z-10">
           <h2 className="text-[#426BFF] font-bold leading-[60px] text-[8px] md:text-[60px] max-sm:text-[48px]">
             Generate Drone Videos Instantly
           </h2>
-          <div className="pt-[24px] md:pt-[32px] w-auto md:w-[406px]">
-            <p className="text-[16px] font-medium">
+          <div className="pt-[24px] md:pt-[32px] w-auto md:w-[406px] ">
+            <p className="text-[16px] font-medium ">
               📍 Turn Any Address into Stunning 3D Drone Videos for{" "}
               <span className="font-bold text-[#141A30]">Real Estate</span>{" "}
               <span className="text-[#426BFF] font-bold">-within minutes!</span>
