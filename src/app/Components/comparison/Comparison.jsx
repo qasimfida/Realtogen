@@ -104,10 +104,10 @@ const Comparison = () => {
           <div className="text-[32px] font-semibold text-[#141A30]">VS</div>
 
           <div className="flex flex-col items-center">
-          <Card className="bg-[#FEF2F2] text-[#141A30] rounded-2xl pl-[40px] pr-[30px] pt-[30px] pb-[45px] md:w-md ">
+            <Card className="bg-[#FEF2F2] text-[#141A30] rounded-2xl pl-[40px] pr-[30px] pt-[30px] pb-[45px] md:w-md ">
               <CardContent className="px-0">
                 <h3 className="text-[32px] pl-[7px] text-start font-semibold mb-4">
-                Traditional Drone Filming
+                  Traditional Drone Filming
                 </h3>
                 <ul className="space-y-3 text-sm text-[#141A30] text-left">
                   <li className="flex items-centercenter gap-2">
