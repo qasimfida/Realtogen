@@ -113,8 +113,8 @@ function CarouselContent({ className, ...props }) {
   return (
     <div
       ref={carouselRef}
-      className="sm:overflow-hidden max-sm:w-[80%] mx-auto"
-      data-slot="carousel-content"
+      className="overflow-hidden"
+      data-slot="carousel-content w-[80%] mx-auto"
     >
       <div
         className={cn(
@@ -139,7 +139,7 @@ function CarouselItem({ className, ...props }) {
       className={cn(
         "min-w-0 shrink-0 grow-0",
         orientation === "horizontal" ? "pl-4" : "pt-4",
-        "sm:w-full max-sm:w-[75%] md:w-[calc(100%/3)] lg:w-[calc(100%/5)]", 
+        "w-full max-sm:w-[80%] sm:w-full md:w-[calc(100%/3)] lg:w-[calc(100%/5)]", 
         className
       )}
       {...props}
