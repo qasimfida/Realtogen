@@ -5,14 +5,14 @@ import LayerIcon from "../../../../public/icons/LayerIcon";
 
 export default function VirtualDroneSection() {
   return (
-    <section className="px-4 text-center md:text-start">
-      <div className="sm:px-[35px]">
-        <h2 className="text-2xl font-bold text-gray-900">
-          Effortless Selling with{" "}
-          <span className="text-blue-500">One-Click Virtual Drone Shoot</span>
+    <section className="max-sm:pt-[62px] text-center md:text-start">
+      <div className="">
+        <h2 className="md:text-[32px] text-[20px] max-sm:text-center font-bold text-[#141A30]">
+          Effortless Selling with One-Click 
+          <span className="text-[#426BFF]"> Virtual Drone Shoot</span>
         </h2>
-        <p className="text-[#141A30] text-[24px] pt-[34px]">
-          See why we're the <span className="font-bold">fastest</span> growing virtual drone company.
+        <p className="text-[#141A30] text-[24px] pt-[34px] max-sm:hidden">
+          See why we're the <span className="font-semibold">fastest</span> growing virtual drone company.
         </p>
       </div>
 
