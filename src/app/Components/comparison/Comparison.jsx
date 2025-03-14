@@ -35,7 +35,7 @@ const Comparison = () => {
                 </h3>
                 <ul className="space-y-3 text-sm text-white text-left">
                   <li className="flex items-start gap-2">
-                    <ShieldCheck className="text-white mt-1" />
+                    <ShieldCheck className="text-white mt-1 " />
                     <p className=" text-[16px] font-normal">
                       <span className="font-bold">Instant Results:</span>{" "}
                       Generate aerial-style videos in minutes
@@ -106,35 +106,35 @@ const Comparison = () => {
                 </h3>
                 <ul className="space-y-3 text-sm text-[#141A30] text-left">
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
+                    <AlertTriangle className="text-[#F05555] mt-1" />
                     <span>
                       <strong>Time-Consuming:</strong> Schedule shoots, wait for
                       pilot availability
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
+                    <AlertTriangle className="text-[#F05555] mt-1" />
                     <span>
                       <strong>On-Site Requirements:</strong> Equipment, perfect
                       weather, and filming crew
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
+                    <AlertTriangle className="text-[#F05555] mt-1" />
                     <span>
                       <strong>Higher Costs:</strong> Hourly pilot rates, travel
                       fees, and editing expenses
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
+                    <AlertTriangle className="text-[#F05555] mt-1" />
                     <span>
                       <strong>Permits & Insurance:</strong> Strict regulations
                       and added paperwork
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
+                    <AlertTriangle className="text-[#F05555] mt-1" />
                     <span>
                       <strong>Long Drives & Travel:</strong> Costs and time
                       skyrocket for remote locations
@@ -147,14 +147,14 @@ const Comparison = () => {
             {/* Small box outside the card */}
             <div className="mt-3 flex flex-col space-y-2 text-sm bg-[#FEF2F2]  rounded-xl text-[#141A30] w-full py-6 px-10">
               <div className="flex items-center gap-2">
-                <DollarSign className="text-[#141A30]" />
+                <DollarSign className="text-[#F05555]" />
                 <span>
                   <strong className="font-semibold text-2xl">450$</strong>{" "}
                   average cost in US
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                <Clock className="text-[#141A30]" />
+                <Clock className="text-[#F05555]" />
                 <span>
                   <strong className="font-semibold text-2xl">3 days</strong>{" "}
                   average delivery time
