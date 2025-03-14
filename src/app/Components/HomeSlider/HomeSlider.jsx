@@ -59,7 +59,7 @@ const HomeSlider = () => {
           </span>
         </p>
 
-        <div className="pt-[40px] max-sm:w-full w-[auto]">
+        <div className="pt-[40px] max-sm:w-full w-[auto] overflow-hidden">
           <Carousel
             className="w-full max-w-[1024px] max-h-[434px] h-full"
             plugins={[

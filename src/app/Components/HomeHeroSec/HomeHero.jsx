@@ -11,7 +11,7 @@ const HomeHero = () => {
   return (
     <>
       <div className="flex pt-[15px] md:pt-[78px] pl-[16px]">
-      <div className="flex  relative pt-[15px] md:pt-[78px] sm:bg-[url('/images/homeBg.png')] max-sm:bg-none bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px] z-[99999]">
+      <div className="flex  relative pt-[15px] md:pt-[78px] sm:bg-[url('/images/homeBg.png')] max-sm:bg-none bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px] z-[]">
       <div className=" sm:none absolute top-[300px] z-[-5]">
       <Image src="/images/homeBg.png" alt="Image description" width={500} height={300} />
       </div>
