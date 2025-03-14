@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import logo from "../../../../public/images/logo.png"
 import usa from "../../../../public/images/usa.png"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
@@ -33,7 +32,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-8">
           <Link href="/home" className="flex items-center gap-2 text-[18px] font-bold">
-            <Image src={logo} alt="RealtoGen Logo" width={30} height={30} />
+            <Image src="/images/logo" alt="RealtoGen Logo" width={30} height={30} />
             RealtoGen
           </Link>
 
