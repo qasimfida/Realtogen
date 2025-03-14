@@ -2,6 +2,7 @@ import React from "react";
 import InstaIcon from "../../../../public/icons/InstaIcon";
 import FacebookIcon from "../../../../public/icons/FacebookIcon";
 import YoutubeIcon from "../../../../public/icons/YoutubeIcon";
+import logo from "../../../../public/images/logo.png"
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -98,7 +99,7 @@ const Footer = () => {
         <div className="flex gap-[30px] md:flex-row flex-col">
           <div className="flex text-[18px] font-semibold text-white gap-[9px]">
             <Image
-              src="/images/logo.png"
+              src={logo}
               alt="RealtoGen Logo"
               width={24}
               height={24}
