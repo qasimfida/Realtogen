@@ -73,72 +73,72 @@ const Comparison = () => {
               </CardContent>
             </Card>
 
-<div className="mt-3 flex flex-col space-y-2 text-sm bg-[#2545B7] p-4 rounded-xl text-white w-full py-6 px-10">
-  <div className="flex items-center gap-[38px]">
-    <div className="flex items-center gap-[38px]">
-      <DollerIcon />
-      <h3 className="font-semibold text-2xl">16.90$</h3>
-    </div>
-    <div className="flex items-center gap-2">
-      <p>pro plan price</p>
-    </div>
-  </div>
-  <div className="flex items-center gap-[44px]">
-    <div className="flex items-center gap-[48px]">
-      <SpeedIcon />
-      <h3 className="font-semibold text-2xl">8 min</h3>
-    </div>
-    <div className="flex items-center gap-2">
-      <p>average delivery time</p>
-    </div>
-  </div>
-</div>
+            <div className="mt-3 flex flex-col space-y-2 text-sm bg-[#2545B7] p-4 rounded-xl text-white w-full py-6 px-10">
+              <div className="flex items-center gap-[38px]">
+                <div className="flex items-center gap-[38px]">
+                  <DollerIcon />
+                  <h3 className="font-semibold text-2xl">16.90$</h3>
+                </div>
+                <div className="flex items-center gap-2">
+                  <p>pro plan price</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-[44px]">
+                <div className="flex items-center gap-[48px]">
+                  <SpeedIcon />
+                  <h3 className="font-semibold text-2xl">8 min</h3>
+                </div>
+                <div className="flex items-center gap-2">
+                  <p>average delivery time</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* VS Divider */}
-          <div className="text-xl font-bold text-gray-600">VS</div>
+          <div className="text-[32px] font-semibold text-[#141A30]">VS</div>
 
           <div className="flex flex-col items-center">
-            <Card className="bg-[#FEF2F2] text-[#141A30] rounded-2xl p-6 md:w-md shadow-none">
+          <Card className="bg-[#FEF2F2] text-white rounded-2xl pl-[40px] pr-[30px] pt-[30px] pb-[45px] md:w-md shadow-xl">
               <CardContent className="px-0">
-                <h3 className="text-2xl font-semibold mb-4 text-[#141A30]">
-                  Traditional Drone Filming
+                <h3 className="text-[32px] pl-[7px] text-start font-semibold mb-4">
+                Traditional Drone Filming
                 </h3>
-                <ul className="space-y-3 text-sm text-[#141A30] text-left">
+                <ul className="space-y-3 text-sm text-white text-left">
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
-                    <span>
-                      <strong>Time-Consuming:</strong> Schedule shoots, wait for
-                      pilot availability
-                    </span>
+                    <ShieldCheck className="text-white mt-1" />
+                    <p className=" text-[16px] font-normal">
+                      <span className="font-bold">Instant Results:</span>{" "}
+                      Generate aerial-style videos in minutes
+                    </p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
-                    <span>
-                      <strong>On-Site Requirements:</strong> Equipment, perfect
-                      weather, and filming crew
-                    </span>
+                    <ShieldCheck className="text-white mt-1" />
+                    <p className=" text-[16px] font-normal">
+                      <span className="font-bold">No On‐Site Filming:</span> AI
+                      handles everything-no pilot, no crew
+                    </p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
-                    <span>
-                      <strong>Higher Costs:</strong> Hourly pilot rates, travel
-                      fees, and editing expenses
-                    </span>
+                    <ShieldCheck className="text-white mt-1" />
+                    <p className=" text-[16px] font-normal">
+                      <span className="font-bold">Cost‐Effective: </span>Pay
+                      only a fraction of what real drone shoots cost
+                    </p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
-                    <span>
-                      <strong>Permits & Insurance:</strong> Strict regulations
-                      and added paperwork
-                    </span>
+                    <ShieldCheck className="text-white mt-1" />
+                    <p className=" text-[16px] font-normal">
+                      <span className="font-bold"> Brand Customization: </span>
+                      Easily add logos, colors, voiceovers, and subtitles
+                    </p>
                   </li>
                   <li className="flex items-start gap-2">
-                    <AlertTriangle className="text-[#141A30] mt-1" />
-                    <span>
-                      <strong>Long Drives & Travel:</strong> Costs and time
-                      skyrocket for remote locations
-                    </span>
+                    <ShieldCheck className="text-white mt-1" />
+                    <p className=" text-[16px] font-normal">
+                      <span className="font-bold">Anytime, Anywhere: </span>
+                      Create videos on demand from any device
+                    </p>
                   </li>
                 </ul>
               </CardContent>
