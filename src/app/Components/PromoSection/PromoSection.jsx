@@ -8,7 +8,7 @@ export default function PromoSection() {
   return (
     <section className="bg-[#141A30] text-white mt-[65px] py-[66px] md:px-0">
       <div className="flex flex-col md:flex-row items-center gap-[16px] md:gap-[47px] px-[32px] md:px-[208px] ">
-       <div className="md:pl-[55px] w-full flex md:justify-end">
+       <div className="md:pl-[55px] w-full flex md:justify-center">
         <div className="w-[100%] max-w-[440px] md:h-[476px] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
           <span className="text-3xl"><Image src="/link.svg" alt="Image description" width={28} height={20} /></span>
         </div>
