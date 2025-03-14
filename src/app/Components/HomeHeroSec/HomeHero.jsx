@@ -50,7 +50,7 @@ const HomeHero = () => {
         </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[23px] pt-[40px] md:pt-[101px]">
+      <div className="px-[16px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[23px] pt-[40px] md:pt-[101px]">
         {CardsData.map((card) => (
           <HomeCards key={card.id} text={card.text} img={card.img} />
         ))}
