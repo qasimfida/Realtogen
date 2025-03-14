@@ -5,14 +5,18 @@ import { Button } from "@/components/ui/button";
 import HomeCards from "../HomeCards/HomeCards";
 import img from "/public/images/homeBg.png";
 import CardsData from "@/app/Data/HomeCardsData";
+import Image from "next/image";
 
 const HomeHero = () => {
   return (
     <>
       <div className="flex pt-[15px] md:pt-[78px] pl-[16px]">
-      <div className="flex  pt-[15px] md:pt-[78px] bg-[url('/images/homeBg.png')] bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px]">
+      <div className="flex  relative pt-[15px] md:pt-[78px] sm:bg-[url('/images/homeBg.png')] max-sm:bg-none bg-cover overflow-hidden flex-col-reverse md:flex-row gap-[32px] z-[99999]">
+      <div className=" sm:none absolute top-[300px] z-[-5]">
+      <Image src="/images/homeBg.png" alt="Image description" width={500} height={300} />
+      </div>
         <div className="flex flex-col items-cente md:items-start">
-          <h2 className="text-[#426BFF] font-bold leading-[60px] text-[8px] md:text-[60px]">
+          <h2 className="text-[#426BFF] font-bold leading-[60px] text-[8px] md:text-[60px] max-sm:text-[48px]">
             Generate Drone Videos Instantly
           </h2>
           <div className="pt-[24px] md:pt-[32px] w-auto md:w-[406px]">
