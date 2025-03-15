@@ -7,10 +7,10 @@ import TransformIcon from "../../../../public/icons/TransformIcon";
 export default function PromoSection() {
   return (
     <section className="bg-[#141A30] text-white mt-[65px] py-[66px] md:px-0">
-      <div className="w-full md:w-[1024px] mx-auto">
+      <div className="w-full md:w-[1024px] mx-auto max-sm:px-[32px]">
         <div className="flex flex-col md:flex-row  items-center gap-[16px] md:gap-[47px]">
        <div className="md:pl-[55px] w-full flex md:justify-center">
-        <div className="w-[100%] max-w-[440px] md:h-[476px] h-[300px] bg-gray-200 rounded-xl flex items-center justify-center">
+        <div className="w-[100%] max-w-[440px] md:h-[476px] h-[300px] max-sm:px-[23px] bg-gray-200 rounded-xl flex items-center justify-center">
           <span className="text-3xl"><Image src="/link.svg" alt="Image description" width={28} height={20} /></span>
         </div>
         </div>
@@ -25,7 +25,7 @@ export default function PromoSection() {
             No on-site filming, no hefty fees—just ultra-affordable AI-powered videos. Let our AI handle the heavy lifting at the lowest cost!
           </p>
 
-          <div className="flex flex-col md:flex-row  gap-4 mt-6 ">
+          <div className="flex flex-col md:flex-row  gap-4 mt-6 max-sm:gap-[16px] ">
               <Button
                 variant="outline"
                 className="text-white border-white rounded-2xl bg-transparent font-semibold text-[16px] px-10 py-6 md:my-0 my-4"
