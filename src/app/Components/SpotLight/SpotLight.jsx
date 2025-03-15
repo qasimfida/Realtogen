@@ -24,7 +24,7 @@ const SpotLight = () => {
               You can save time, cut costs, and focus on selling. Start
               transforming your listing designs.
             </p>
-            <div className="flex sm:gap-4 max-sm:flex-col gap-[16px]">
+            <div className="flex sm:gap-4 items-center justify-center max-sm:flex-col gap-[6px]">
               <Button
                 variant="default"
                 className="bg-blue-500 hover:bg-blue-600 border-[#b8b8b8] border-2 font-semibold text-[16px] px-10 py-6 md:my-0 my-4 shadow-lg"

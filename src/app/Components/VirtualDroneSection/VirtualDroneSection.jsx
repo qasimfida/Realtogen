@@ -5,7 +5,7 @@ import LayerIcon from "../../../../public/icons/LayerIcon";
 
 export default function VirtualDroneSection() {
   return (
-    <section className="max-sm:pt-[62px] max-sm:px-[73px] text-center md:text-start">
+    <section className="max-sm:pt-[62px] max-sm:px-[50px] text-center md:text-start">
       <div className="">
         <h2 className="md:text-[32px] text-[20px] max-sm:text-center font-bold text-[#141A30]">
           Effortless Selling with One-Click 

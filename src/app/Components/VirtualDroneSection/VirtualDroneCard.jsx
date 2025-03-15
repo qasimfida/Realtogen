@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function VirtualDroneCard({ imageSrc, title, description, icon }) {
   return (
-    <Card className="w-full md:w-[450px] bg-[#4170c0c4] shadow-lg rounded-xl overflow-hidden border border-gray-200 relative transition-all duration-300 hover:text-white hover:bg-gradient-to-b hover:from-[#73a2f3] hover:to-[#2a559e] hover:shadow-xl group">
+    <Card className="w-full sm:w-[450px] max-sm:max-w-[294px] bg-[#4170c0c4] shadow-lg rounded-xl overflow-hidden border border-gray-200 relative transition-all duration-300 hover:text-white hover:bg-gradient-to-b hover:from-[#73a2f3] hover:to-[#2a559e] hover:shadow-xl group">
       <CardContent className="p-2 relative">
         <div className="relative w-full sm:h-[243px]  overflow-hidden">
           <Image

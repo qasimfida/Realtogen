@@ -51,7 +51,7 @@ const Footer = () => {
 
           </div>
           <div className="mt-[14px]">
-            <div className="max-sm:flex max-sm:flex-col max-sm:gap-[32px] max-sm:px-[13px]">
+            <div className="max-sm:flex max-sm:flex-col max-sm:px-[13px]">
               <p className="text-[#ffffff83]">Newsletter</p>
               <h1 className="font-semibold text-[24px] md:text-[32px] text-white py-[11px] max-sm:py-[32px]">
                 Stay connected

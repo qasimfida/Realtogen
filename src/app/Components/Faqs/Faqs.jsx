@@ -13,7 +13,7 @@ import {
   
     return (
       <div className="flex md:flex-row flex-col w-full sm:w-[1024px] gap-[32px] py-10 ">
-        <div className="md:pl-[32px] max-sm:text-center w-[100%] mb-8 flex flex-col gap-[28px]">
+        <div className="md:pl-[32px] max-sm:text-center w-[100%] mb-8 flex flex-col sm:gap-[28px]">
           <h1 className="text-[20px] md:text-[32px] font-semibold text-[#141A30]">Got questions?</h1>
           <h1 className="text-[20px] md:text-[32px] font-semibold text-[#5176FE]">- We have answers.</h1>
         </div>

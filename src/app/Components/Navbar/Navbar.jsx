@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
     <div className="flex justify-center">
     <div
-        className={`fixed top-0 w-full max-w-[1000px] mx-auto md:pr-[20px] py-4 flex items-center justify-between transition-all duration-300 z-50 ${
+        className={`fixed top-0 max-sm:px-[14px] w-full max-w-[1000px] mx-auto md:pr-[20px] py-4 flex items-center justify-between transition-all duration-300 z-50 ${
           isScrolled ? "bg-white shadow-md border-b rounded-full mt-2  w-full max-w-[1018px] mx-auto px-4 md:px-[20px]" : "bg-transparent"
         }`}
       >

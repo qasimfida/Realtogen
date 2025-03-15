@@ -25,7 +25,7 @@ export default function PromoSection() {
             No on-site filming, no hefty fees—just ultra-affordable AI-powered videos. Let our AI handle the heavy lifting at the lowest cost!
           </p>
 
-          <div className="flex flex-col md:flex-row  gap-4 mt-6 max-sm:gap-[16px] ">
+          <div className="flex flex-col md:flex-row items-center justify-center  gap-4 mt-6 max-sm:gap-[16px] ">
               <Button
                 variant="outline"
                 className="text-white border-white rounded-2xl bg-transparent font-semibold text-[16px] px-10 py-6 md:my-0 my-4"
